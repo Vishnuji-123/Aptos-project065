@@ -1,0 +1,16 @@
+[package]
+name = "sandbox"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0x80a43218e38489c162f12ecc0dbf52d4a85ca2d8b841f1c2ffd3c71faba54cb4"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
